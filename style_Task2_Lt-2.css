@@ -1,0 +1,89 @@
+
+h1,h3{
+  text-align: center;
+  color: darkblue;
+  margin: 10px 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 2rem;
+}
+
+
+.header {
+  height: 20vh; 
+  padding: 10px;
+}
+
+
+.box {
+  width: 70vw; 
+  background-color: white;
+  border: 3px solid black;
+  padding: 2em; 
+  margin: 2cm auto; 
+}
+
+
+div p {
+  font-size: 18px; 
+  width: 80%;
+  margin: 1rem auto;
+  line-height: 1.6;
+}
+
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid gray;
+}
+
+input[type="password"] {
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid gray;
+}
+
+
+.btn:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.btn:active {
+background-color: black;
+ color:white;
+}
+
+input:focus {
+  border-color: blue;
+ outline:none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a.active{
+    color:aqua;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+}
+

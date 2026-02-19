@@ -1,0 +1,147 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: black;
+}
+
+.box {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.box1 {
+  width: 300px;
+  height: 120px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 30px;
+}
+
+.box2 {
+  width: 250px;
+  height: 120px;
+  padding: 10px;
+  border: 8px dashed darkblue;
+  margin: 10px 60px;
+}
+
+.box3 {
+  width: 350px;
+  height: 120px;
+  padding: 30px;
+  border: 4px dotted darkred;
+  margin: 50px 10px;
+}
+
+
+.sizing {
+  width: 300px;
+  height: 150px;
+  padding: 25px;
+  border: 6px solid #333;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.default-sizing {
+
+  box-sizing: content-box;
+}
+
+.border-box-sizing {
+  box-sizing: border-box;
+}
+
+.display-demo {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #666;
+  background-color: white;
+}
+
+
+.d-block {
+  display: block;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.d-inline {
+  display: inline;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 10px 0; 
+}
+.d-inline-block {
+  display: inline-block;
+  background-color: lightpink;
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+}
+
+.d-none {
+  display: none;
+}
+
+
+.span-inline {
+  display: inline;
+  background-color: yellow;
+  padding: 5px;
+}
+
+.span-inline-block {
+  display: inline-block;
+  background-color: orange;
+  padding: 10px;
+  margin: 5px;
+  width: 180px;
+}
+
+.span-none {
+  display: none;
+}
+
+.compare {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #444;
+  background-color: white;
+}
+
+.compare div {
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid black;
+}
+
+.visible-box {
+  background-color: lightgreen;
+}
+
+.hidden-box {
+  background-color: lightyellow;
+  visibility: hidden;
+}
+
+.none-box {
+  background-color: lightcoral;
+  display: none;
+}
+
+.after-box {
+  background-color: lightblue;
+}
